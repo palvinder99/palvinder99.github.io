@@ -1,0 +1,79 @@
+.imageContain {
+	background-color:  grey;
+	margin: 0 auto;
+	height: 550px;
+	padding: 10px 10px 0px 0px;
+	width: 80%;
+}
+
+img {
+	width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  width:  80%;
+  height:  400px;
+  text-align: center;
+  margin:  0 auto;
+}
+
+#info {
+	width:  70%;
+	background-color:  white;
+	object-fit: cover;
+	overflow: hidden;
+	text-align: center;
+	height: 400px;
+	border-right: 10px ridge rgb(170, 50, 220, .6);
+}
+
+#links {
+	width: 70%;
+	background-color:  white;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+.name {
+	width:80%;
+	background-color:  white;
+	margin:  0 auto;
+	text-align:  center;
+}
+
+.gaming {
+	font-family: 'Pacifico',cursive;
+	font-size: 18px;
+}
+
+.button {
+    background-color: rgb(153, 230, 255);
+	border: 2px solid black;
+	border-radius: 4px 4px 4px 4px;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+   	display: inline-block;
+  	font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration:none;
+	font-family: 'Pacifico',cursive;
+}
+
+.button:hover {
+	background-color: red;
+	border: 2px solid black;
+    color: black;
+	font-family: 'Pacifico',cursive;
+    padding: 5px 10px;
+    text-align: center;
+   	display: inline-block;
+  	font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration:none;
+}
